@@ -1,0 +1,21 @@
+v# Python
+myenv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Node/Angular
+/sentiment-app-ui/node_modules/
+/sentiment-app-ui/dist/
+.tmp/
+.cache/
+
+# Environment variables
+.env
+
+# IDE-specific files
+.vscode/
+.idea/
