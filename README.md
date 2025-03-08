@@ -1,4 +1,4 @@
-# AI Web Application
+# Sentiment Analysis AI Web Application
 
 This is a beginner web application that integrates AI for sentiment analysis.
 
