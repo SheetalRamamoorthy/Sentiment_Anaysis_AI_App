@@ -23,6 +23,6 @@ This is a beginner web application that integrates AI for sentiment analysis.
    ng serve
    
 ## Tech used
-Python(Flask)
-Hugging face transformers 
-Angular
+- Python(Flask)
+- Hugging face transformers 
+- Angular
