@@ -8,8 +8,9 @@ __pycache__/
 *.sqlite3
 
 # Node/Angular
-/sentiment-app-ui/node_modules/
+/sentiment-app-ui/node_modules
 /sentiment-app-ui/dist/
+/sentiment-app-ui/.vscode
 .tmp/
 .cache/
 
