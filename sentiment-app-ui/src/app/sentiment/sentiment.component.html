@@ -1,0 +1,13 @@
+<div>
+    <h1>Text Sentiment Analysis With AI App - Backend: Python, Frontend:Angular</h1>
+    <textarea class="my-textbox"placeholder="Enter the text here ..." [(ngModel)]="inputEntry"></textarea>
+    <div>
+        <button class="my-button" (click)="analyze()">Analyze Text</button>
+    </div>
+    
+    <div *ngIf="results">
+        <h2>Results</h2>
+        <h3>Label:</h3><p>{{label}}</p>
+        <h3>Score :</h3><p>{{score}}</p>
+    </div>
+</div>
