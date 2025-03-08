@@ -7,7 +7,7 @@ from flask_cors import CORS
 # The __name__ argument helps Flask locate resources like templates and static files.
 app = Flask(__name__)
 
-#Possible CORS Erros
+#Possible CORS Erros Since Angular is running of port 4000 and Python API on 5000
 CORS(app) # to enable cors only all routes
 
 # Load sentiment analysis model
